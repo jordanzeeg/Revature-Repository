@@ -1,12 +1,12 @@
-jdk is the java development kit. the tools packages and libraries provided
+1) jdk is the java development kit. the tools packages and libraries provided
 jre is the runtime environment.
-jvm is the virtual machine that translates the bytecode into the program. It allows the system to be platform independent
-pointers in java would be unnecessarily complex and undermine the security of the software. 
-bootstrap, extension, and application
-they're loaded first
-instance and static variables use the heap. 
+2)jvm is the virtual machine that translates the bytecode into the program. It allows java to be platform independent
+3)pointers in java would be unnecessarily complex and undermine the security of the software. 
+4)bootstrap, extension, and application
+5)they're loaded first as needed
+instance variables use the heap. static variables use permgen
 permgen is used for storage of metadata
 metaspace is permgen by a different name
-when an object is created Memory is allocated. Fields are initialized to their default values.
-java passes by reference
+heap, stack and permgen
+java passes by value
 native methods use other languages not java
